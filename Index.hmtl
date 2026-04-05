@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highly's Multiverse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>🎮 Highly's Multiverse</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#games" class="nav-link">Games</a></li>
+                <li><a href="#shows" class="nav-link">Shows</a></li>
+                <li><a href="#bot-tos" class="nav-link">Bot ToS</a></li>
+                <li><a href="#discord" class="nav-link nav-link-btn">Join Discord</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Highly's Multiverse</h1>
+            <p>Explore games, watch amazing content, and join our community</p>
+            <a href="#games" class="cta-btn">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <div class="container">
+            <h2>Games</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <h3>Game 1</h3>
+                    <p>Your first game description</p>
+                </div>
+                <div class="game-card">
+                    <h3>Game 2</h3>
+                    <p>Your second game description</p>
+                </div>
+                <div class="game-card">
+                    <h3>Game 3</h3>
+                    <p>Your third game description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shows Section -->
+    <section id="shows" class="shows">
+        <div class="container">
+            <h2>Watch Highly The Show</h2>
+            <div class="shows-grid">
+                <div class="show-card">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <h3>Episode 1</h3>
+                </div>
+                <div class="show-card">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <h3>Episode 2</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bot ToS Section -->
+    <section id="bot-tos" class="bot-tos">
+        <div class="container">
+            <h2>Highly Bot Terms of Service</h2>
+            <div class="tos-content">
+                <h3>1. Acceptance of Terms</h3>
+                <p>By using Highly Bot, you agree to these Terms of Service.</p>
+                <h3>2. Prohibited Activities</h3>
+                <ul>
+                    <li>Spamming or flooding commands</li>
+                    <li>Attempting to hack or exploit the bot</li>
+                    <li>Using the bot to harass users</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Section -->
+    <section id="discord" class="discord">
+        <div class="container">
+            <h2>Join Our Discord Community</h2>
+            <p>Connect with other fans and be part of Highly's Multiverse</p>
+            <a href="https://discord.gg/YOUR-INVITE-CODE" class="discord-btn" target="_blank">
+                <i class="fab fa-discord"></i> Join Discord
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Highly's Multiverse. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
